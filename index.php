@@ -1,2 +1,4 @@
 <?php
-echo "Novos codigos";
+if(isset($_POST['entrar']))
+  header("Location: home.php");
+?>
